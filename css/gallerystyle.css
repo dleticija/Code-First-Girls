@@ -1,13 +1,15 @@
-.body {
-  align: center;
-}
-
 .container {
   position: relative;
   width: 50%;
-  align: center;
 }
 
+
+.full {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
 
 .image {
   opacity: 1;
@@ -16,6 +18,7 @@
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  padding: 10px;
 }
 
 .middle {
