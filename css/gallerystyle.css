@@ -8,6 +8,12 @@
   align: center;
 }
 
+.second {
+  position: relative;
+  width: 50%;
+  align: center;
+}
+
 .image {
   opacity: 1;
   display: block;
