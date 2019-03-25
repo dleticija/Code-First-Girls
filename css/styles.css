@@ -145,7 +145,7 @@ p {
 .slick-slider
 {
     position: relative;
-
+    margin-bottom: 20px;
     display: block;
     box-sizing: border-box;
 
