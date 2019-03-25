@@ -86,6 +86,9 @@ body {
 }
 
 div.container-fluid {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+
   height: 100%;
   display: flex;
   justify-content: center;
@@ -123,6 +126,10 @@ a.navbar-brand-logo { /*or add another class instead of changing this*/
       display: none;
     }
   }
+
+.carousel-caption{
+  font-family: 'Poppins', sans-serif;
+}
 
 p {
   text-align: center;
