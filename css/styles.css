@@ -1,8 +1,8 @@
-
 body {
   background-color: #18396E;
 }
 
+/*==============Navigation bar==============*/
 .navbar-default {
   background-color: white !important;
   border-color: white !important;
@@ -135,9 +135,45 @@ p {
   text-align: center;
   color: #F7E415;
 }
+/*==============Goals, Aims, Values==============*/
+.box{
+  padding : 3em;
+  border : 0.1em solid #18396E;
+  width  : 100%;
+  height : 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 
+.box:hover{
+  opacity: 0.6;
+}
 
-/* Slider */
+/* Some left and right padding inside the container */
+.container-fluid {
+  padding: 25px 25px;
+  color: #18396E;
+}
+
+/* Clear floats */
+.container-fluid::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h4{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 70px;
+}
+
+.goals-list{
+  text-align: justify;
+  list-style-type: square;
+  text-transform: none;
+}
+
+/*==============Logo slider==============*/
 .slick-slide {
     margin: 0px 20px;
     background: white
