@@ -7,7 +7,8 @@ $(document).ready(function(){
 				autoplaySpeed: 1100,
 				arrows: false,
 				dots: false,
-				pauseOnHover: false,
+				pauseOnHover: true,
+				pauseOnFocus: false,
 					responsive: [{
 					breakpoint: 768,
 					settings: {
