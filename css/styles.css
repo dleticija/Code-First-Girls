@@ -6,6 +6,7 @@ body {
 .navbar-default {
   background-color: white !important;
   border-color: white !important;
+  opacity: 0.85;
 }
 .navbar-default .navbar-brand {
   color: #f7e415 !important;
