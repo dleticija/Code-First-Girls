@@ -28,7 +28,6 @@ body{
   text-transform: none;
 }
 
-
 /* Display well small screens */
 @media screen and (max-width: 650px) {
   body {
@@ -56,7 +55,6 @@ body{
   padding: 13px 13px;
   color: #18396E;
 }
-
 /* Clear floats */
 .container-fluid::after, .row::after #card{
   content: "";
