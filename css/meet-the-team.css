@@ -28,6 +28,14 @@ body{
   text-transform: none;
 }
 
+/* Display well small screens */
+@media screen and (max-width: 650px) {
+  body {
+    /* Adds extra padding because of the navigation bar */
+    padding-top: 100px
+  }
+}
+
 /* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -41,14 +49,14 @@ body{
   border-radius: 15px 50px;
 }
 
-/* Some left and right padding inside the container
- .container-fluid {
+/* Some left and right padding inside the container */
+.container-fluid #card{
   font-family: 'Poppins', sans-serif;
   padding: 13px 13px;
   color: #18396E;
-}*/
+}
 /* Clear floats */
-.container-fluid::after, .row::after {
+.container-fluid::after, .row::after #card{
   content: "";
   clear: both;
   display: table;
