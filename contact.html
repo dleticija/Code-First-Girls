@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.css" rel="stylesheet">
+  <title>Families First St Andrews</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!--<img src="pictures/background/FFSA logo hq.png" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"  alt="Page Logo" width="20%" style="float:left; margin-left: 4px; margin-top:3px;"> -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="float:right;">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- <a class="nav navbar-brand" href="#"><img src="pictures/background/FFSA logo hq.png" alt="Page Logo" height=20></a> -->
+
+
+      <div class='row collapse navbar-collapse'>
+        <a class="navbar-brand-logo" href="#"><img src="pictures/background/FFSA logo hq.png" alt="Page Logo" height=70></a>
+      </div>
+
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-center text-center">
+            <li ><a href="index.html">Welcome</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="meet-the-team.html">Meet the Team</a></li>
+            <li><a href="#">Volunteering</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+          </ul>
+      </div>
+      </div>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+  <div class="container-fluid t">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="container-fluid">
+            <h2 class="name">See Us In Person</h2>
+            <p class="description">
+              We're in 2 Rose Lane, across from St Andrews Baptist Church, off South Street, St Andrews.
+              <br>
+              Telephone: 01334 208086
+            </p>
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=families%20first%20st%20andrews&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="container-fluid">
+            <h2 class="name">Enquire Online</h2>
+            <p class="description">
+              If you are interested in volunteering with us, or would like to know more about us, you can e-mail us by using the form below.
+            </p>
+            <form action="action_page.php">
+
+             <label for="fname">First Name</label>
+             <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+             <label for="lname">Last Name</label>
+             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+             <label for="country">Subject</label>
+             <select id="country" name="country">
+               <option value="australia">Volunteering</option>
+               <option value="canada">Services</option>
+               <option value="usa">Other</option>
+             </select>
+
+             <label for="subject">Message</label>
+             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+             <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="container-fluid">
+            <h2 class="name">Follow Us on FB</h2>
+            <p class="description">
+              Stay updated with the life at Families First st Andrews! Like our Facebook page for news, photos, and much more.
+            </p>
+            <div class = "content">
+              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFamiliesFirstStA%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </body>

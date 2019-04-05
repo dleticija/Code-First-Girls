@@ -1,0 +1,149 @@
+body{
+  padding-top: 200px;
+  background-color: white;
+}
+
+.navbar-default {
+  background-color: white !important;
+  border-color: white !important;
+  opacity: 0.9;
+}
+.navbar-default .navbar-brand {
+  color: #f7e415 !important;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #f7e415 !important;
+}
+.navbar-default .navbar-text {
+  color: #f7e415 !important;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #18396E !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  /*text-shadow: -1px 0 #f7e415, 0 1px #f7e415, 1px 0 #f7e415, 0 -1px #f7e415 !important;*/
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #18396E !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  /*text-shadow: -1px 0 #f7e415, 0 1px #f7e415, 1px 0 #f7e415, 0 -1px #f7e415 !important;*/
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #18396E !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  /*text-shadow: -1px 0 #f7e415, 0 1px #f7e415, 1px 0 #f7e415, 0 -1px #f7e415 !important;*/
+  background-color: white !important;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #18396E !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  /*text-shadow: -1px 0 #f7e415, 0 1px #f7e415, 1px 0 #f7e415, 0 -1px #f7e415 !important;*/
+  background-color: #18396e !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: #18396e !important;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #18396e !important;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f7e415 !important;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #f7e415 !important;
+}
+.navbar-default .navbar-link {
+  color: #f7e415 !important;
+}
+.navbar-default .navbar-link:hover {
+  color: #f7e415  !important;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #f7e415 !important;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f7e415 !important;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f7e415 !important;
+    background-color: #18396e !important;
+  }
+}
+
+div.container-fluid {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a.navbar-brand-logo { /*or add another class instead of changing this*/
+    display:block;
+    margin:10px 0 10px 0; /* Adjust the margin : top right bottom left */
+    text-align: center;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+ width: 100%; /* Full width */
+ padding: 12px; /* Some padding */
+ border: 1px solid #ccc; /* Gray border */
+ border-radius: 4px; /* Rounded borders */
+ box-sizing: border-box; /* Make sure that padding and width stays in place */
+ margin-top: 6px; /* Add a top margin */
+ margin-bottom: 16px; /* Bottom margin */
+ resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+ background-color: #4CAF50;
+ color: white;
+ padding: 12px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+ background-color: #45a049;
+}
+
+div#content
+    {display: table-row; height: 100%; background-color: red; overflow: hidden }
+
+
+div#content iframe {
+    width: 100%; height: 100%; border: none; margin: 0; padding: 0; display: block;
+}
+
+iframe {
+  display:block;
+  width:100%;
+}
+
+.description{
+  text-align: justify;
+  text-transform: none;
+}
