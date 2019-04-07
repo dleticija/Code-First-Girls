@@ -3,6 +3,14 @@ body {
   background-color: white;
 }
 
+footer{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #18396E;
+  background: rgba(24,57,110, 0.1);
+  margin-bottom: -100px;
+}
+
 #line{
   display: block;
   margin-left: auto;
@@ -192,10 +200,6 @@ a.navbar-brand-logo { /*or add another class instead of changing this*/
   font-family: 'Poppins', sans-serif;
 }
 
-p {
-  text-align: center;
-  color: #F7E415;
-}
 /* Donate button */
 #donate{
   display: block ;
