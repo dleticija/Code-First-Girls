@@ -14,6 +14,10 @@ footer{
   margin-bottom: -100px;
 }
 
+.more:hover{
+  opacity: 0.7;
+}
+
 #line{
   display: block;
   margin-left: auto;
@@ -327,4 +331,52 @@ a.navbar-brand-logo { /*or add another class instead of changing this*/
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+/* Hover Box design */
+a.tooltips {
+    position: relative;
+    display: inline;
+}
+a.tooltips span {
+    position: absolute;
+    width:140px;
+    color: #FFFFFF;
+    background: #18396E;
+    border: 2px solid #18396E;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 0px;
+}
+a.tooltips span:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -12px;
+    width: 0; height: 0;
+    border-top: 12px solid #18396E;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+}
+a.tooltips span:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-top: 8px solid #18396E;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+a:hover.tooltips span {
+    visibility: visible;
+    opacity: 0.5;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -76px;
+    z-index: 999;
 }
