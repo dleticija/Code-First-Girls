@@ -1,6 +1,9 @@
 
 body {
-  background-color: white;
+  background-color: white !important;
+  font-family: 'Poppins', sans-serif !important;
+  text-align: center !important;
+  color: #18396E !important;
 }
 
 #line{
@@ -168,34 +171,6 @@ a.navbar-brand-logo { /*or add another class instead of changing this*/
       margin: auto;
       min-height:200px;
   }
-
-  .carousel-inner h3{
-    font-size: 26px;
-    font-weight: bold;
-    color: #18396E ;
-    /*text-shadow: -1px 0 #f7e415, 0 1px #f7e415, 1px 0 #f7e415, 0 -1px #f7e415 ;*/
-  }
-
-  .carousel-inner p {
-    text-align: center;
-    color: #18396E;
-    font-style: italic;
-  }
-  /* Hide the carousel text when the screen is less than 600 pixels wide */
-  @media (max-width: 600px) {
-    .carousel-caption {
-      display: none;
-    }
-  }
-
-.carousel-caption{
-  font-family: 'Poppins', sans-serif;
-}
-
-p {
-  text-align: center;
-  color: #F7E415;
-}
 
 
 /* Slider */
