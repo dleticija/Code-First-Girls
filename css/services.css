@@ -3,6 +3,7 @@ body {
   font-family: 'Poppins', sans-serif !important;
   text-align: center !important;
   color: #18396E !important;
+  padding-top: 150px;
 }
 #line{
   display: block;
@@ -13,33 +14,40 @@ body {
   opacity: 0.9;
 }
 
-/*Meet-the-team intro*/
-/* Three columns side by side */
-.col-sm-4{
-  margin-bottom: 20px;
+.text {
+  padding: 15px 50px 15px 50px ;
 }
 
+/* Responsive columns - one column layout (vertical) on small screens */
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 650px) {
+  body {
+    /* Adds extra padding because of the navigation bar */
+    padding-top: 100px
+  }
+}
+
+/*Meet-the-team intro*/
+/* Three columns side by side */
+/* Float four columns side by side */
+.col {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
 .name{
   text-align: center;
   text-transform: capitalize;
   color: #18396E;
+  font-size: 20px;
 }
 
-.title{
-  text-align: center;
-  text-transform: uppercase;
-  font-style: italic;
-  color: #18396E;
-}
 .description{
   text-align: justify;
   text-transform: none;
   color: #18396E;
 }
-/* Add some shadows to create a card effect */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
+
 
 .card img:hover{
   opacity: 0.7;
