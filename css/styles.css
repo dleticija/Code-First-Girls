@@ -196,7 +196,19 @@ p {
   text-align: center;
   color: #F7E415;
 }
+/* Donate button */
+#donate{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+}
 
+#donate:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
 
 /* Slider */
 .slick-slide {
