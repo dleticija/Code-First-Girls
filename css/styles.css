@@ -6,10 +6,6 @@ body {
   color: #18396E !important;
 }
 
-.topp{
-  text-transform: none;
-}
-
 footer{
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -36,7 +32,7 @@ footer{
 
 .name{
   text-align: center;
-  text-transform: capitalize;
+  text-transform: none;
   color: #18396E;
 }
 
