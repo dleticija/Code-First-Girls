@@ -46,7 +46,7 @@
             <li><a href="gallery.html">Gallery</a></li>
             <li class="active"><a href="contact.html">Contact Us</a></li>
           </ul>
-      </div>
+        </div>
       </div>
     </div><!-- /.container-fluid -->
   </nav>
@@ -63,6 +63,12 @@
               <br>
               Telephone: 01334 208086
             </p>
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=families%20first%20st%20andrews&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                </iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -73,6 +79,26 @@
             <p class="description">
               If you are interested in volunteering with us, or would like to know more about us, you can e-mail us by using the form below.
             </p>
+            <form action="action_page.php">
+
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="country">Subject</label>
+              <select id="country" name="country">
+                <option value="australia">Volunteering</option>
+                <option value="canada">Services</option>
+                <option value="usa">Other</option>
+              </select>
+
+              <label for="subject">Message</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+              <input type="submit" value="Submit">
+            </form>
           </div>
         </div>
       </div>
@@ -83,71 +109,18 @@
             <p class="description">
               Stay updated with the life at Families First st Andrews! Like our Facebook page for news, photos, and much more.
             </p>
+            <div class = "fb-content">
+              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFamiliesFirstStA%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="card">
-          <div class="container-fluid">
-            <img src="pictures/line.png" id="line">
-            <br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2211.4833822425658!2d-2.800906084485378!3d56.338743954115664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4886579ac10e7a37%3A0x7ca541a10636f4e1!2sFamilies+First+-+St+Andrews!5e0!3m2!1sen!2suk!4v1554731529266!5m2!1sen!2suk" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card">
-          <div class="container-fluid">
-            <img src="pictures/line.png" id="line">
-            <br>
-            <form action="action_page.php">
-
-             <label for="fname">First Name</label>
-             <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-             <label for="lname">Last Name</label>
-             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-             <label for="country">Subject</label>
-             <select id="country" name="country">
-               <option value="australia">Volunteering</option>
-               <option value="canada">Services</option>
-               <option value="usa">Other</option>
-             </select>
-
-             <label for="subject">Message</label>
-             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-             <input type="submit" value="Submit">
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card">
-          <div class="container-fluid">
-            <img src="pictures/line.png" id="line">
-            <br>
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFamiliesFirstStA%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</br>
-<footer>
-  <br>
-  Charity Number: SC032506. Thank you for visiting the Families First St
-  Andrews website. Company Number 225041
-  <br>
-  <br>
-</footer>
-
-
-
-
+    <footer>
+      <br>
+      Charity Number: SC032506. Thank you for visiting the Families First St
+      Andrews website. Company Number 225041
+      <br>
+      <br>
+    </footer>
   </body>
