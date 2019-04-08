@@ -1,5 +1,5 @@
 body{
-  padding-top: 200px;
+  padding-top: 150px;
   background-color: white;
 }
 
@@ -9,6 +9,14 @@ footer{
   color: white;
   background: rgba(24,57,110);
   margin-bottom: -100px;
+}
+
+/* Display well small screens */
+@media screen and (max-width: 650px) {
+  body {
+    /* Adds extra padding because of the navigation bar */
+    padding-top: 100px
+  }
 }
 
 .navbar-default {
