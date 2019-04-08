@@ -28,6 +28,7 @@ body{
   text-transform: none;
 }
 
+
 /* Display well small screens */
 @media screen and (max-width: 650px) {
   body {
@@ -36,22 +37,28 @@ body{
   }
 }
 
-.col-sm-4 img:hover{
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img:hover{
   opacity: 0.7;
 }
 
-.col-sm-4 img{
+.card img{
   border-radius: 15px 50px;
 }
 
 /* Some left and right padding inside the container */
-.container-fluid #card{
+.container-fluid {
   font-family: 'Poppins', sans-serif;
   padding: 13px 13px;
   color: #18396E;
 }
+
 /* Clear floats */
-.container-fluid::after, .row::after #card{
+.container-fluid::after, .row::after {
   content: "";
   clear: both;
   display: table;
