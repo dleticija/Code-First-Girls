@@ -1,6 +1,15 @@
 body{
-  padding-top: 200px;
+  padding-top: 150px;
   background-color: white;
+}
+
+#line{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  filter: brightness(70%);
+  opacity: 0.9;
 }
 
 .navbar-default {
@@ -134,14 +143,6 @@ input[type=submit] {
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
  background-color: #45a049;
-}
-
-div#fb-content
-    {display: table-row; width: 100%; background-color: red; overflow: hidden; max-width: 100%;}
-
-
-div#fb-content iframe {
-    width: 100%; height: 100%; border: none; margin: 0; padding: 0; display: block; max-width: 100%;
 }
 
 .description{
