@@ -194,7 +194,8 @@ a.navbar-brand-logo { /*or add another class instead of changing this*/
   display: block ;
   margin-left: auto ;
   margin-right: auto ;
-  width: 400px ;
+  width: 70%;
+  max-width: 400px;
   height: auto ;
 }
 
