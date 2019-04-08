@@ -1,4 +1,3 @@
-
 body {
   background-color: white;
   font-family: 'Poppins', sans-serif !important;
@@ -331,4 +330,9 @@ a.navbar-brand-logo { /*or add another class instead of changing this*/
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+.donors{
+  font-size: x-large;
+  padding-bottom: 30px;
 }
