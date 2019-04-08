@@ -2,6 +2,14 @@ body{
   padding-top: 150px;
 }
 
+footer{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: white;
+  background: rgba(24,57,110);
+  margin-bottom: -100px;
+}
+
 /* Three columns side by side */
 .col-sm-4{
   margin-bottom: 20px;
